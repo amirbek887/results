@@ -1,0 +1,121 @@
+
+
+.main-container {
+  display: flex;
+  background-color: hsl(241, 100%, 89%);
+
+
+}
+.result {
+  width: 200px;
+  height: auto;
+  background-color: hsl(252, 100%, 67%);
+  padding: 30px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.your-result {
+  font-size: 20px;
+  color: hsl(241, 100%, 89%);
+}
+.result-items-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: hsla(256, 72%, 46%, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.result-number {
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 1px;
+
+}
+.result-number-100 {
+  color: hsl(241, 100%, 89%);
+}
+.feedback {
+  text-align: center;
+  color: #fff;
+}
+.feedback-text {
+  text-align: center;
+  color: hsl(241, 100%, 89%);
+}
+
+.summary {
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+
+}
+.summary-heading {
+  font-size: 20px;
+}
+
+.list-item {
+  padding: 1px 5px 1px;
+  display: flex;
+  list-style: none;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 200px;
+}
+.item-1 {
+  background-color: hsla(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%)
+  ;
+}
+.item-2 {
+  background-color: hsla(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%)  ;
+}
+.item-3 {
+  background-color: hsla(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%)  ;
+}
+.item-4 {
+  background-color: hsla(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+}
+
+.button {
+  width: 190px;
+  align-self: center;
+  background-color: hsl(224, 30%, 27%);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+
+@media screen and (max-width: 375px) {
+  .main-container {
+  display: grid;
+
+  }
+  .result {
+    margin: 0;
+  }
+
+
+  .summary {
+    margin: 0;
+  }
+}
